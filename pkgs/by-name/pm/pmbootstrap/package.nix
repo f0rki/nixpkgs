@@ -82,6 +82,7 @@ python3Packages.buildPythonApplication rec {
     maintainers = with lib.maintainers; [
       onny
       lucasew
+      ungeskriptet
     ];
     mainProgram = "pmbootstrap";
   };
